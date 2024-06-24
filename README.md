@@ -1,6 +1,6 @@
 # HackerNews Discord Bot
 
-This application fetches and shares top stories from HackerNew for Discord servers. It provides automatic hourly updates and allows users to manually fetch news or search for stories by keyword.
+This application fetches and shares top stories from HackerNews for Discord servers. It provides automatic hourly updates and allows users to manually fetch news or search for stories by keyword.
 
 ## Features
 
