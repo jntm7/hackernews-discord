@@ -58,6 +58,26 @@ async def search_news(ctx, keyword: str):
     else:
         await ctx.send(f"No stories found matching '{keyword}'.")
 
+@bot.command(name='help')
+async def help_command(ctx):
+    embed = discord.Embed(
+        title="HackerNews Bot Help",
+        description="Here are the available commands:",
+        color=discord.Color.blue()
+    )
+    
+    commands = {
+        "!sub": "Subscribe to HackerNews updates",
+        "!unsub": "Unsubscribe from HackerNews updates",
+        "!news": "Manually fetch and post the top 5 HackerNews stories",
+        "!search <keyword>": "Search for top 3 stories containing the given keyword"
+    }
+    
+    for command, description in commands.items():
+        embed.add_field(name=command, value=description, inline=False)
+    
+    await ctx.send(embed=embed)
+
 def create_story_embed(story):
     embed = discord.Embed(
         title=story.get('title', 'No title'),
