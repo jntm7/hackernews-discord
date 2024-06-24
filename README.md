@@ -15,7 +15,7 @@ It provides automatic hourly updates and allows users to manually fetch news or 
 
 ### Clone Repository
 
-```git clone https://github.com/yourusername/hackernews-discord-bot.git
+```git clone https://github.com/jntm7/hackernews-discord.git
 cd hackernews-discord-bot
 ```
 
@@ -44,7 +44,7 @@ Invite the bot to your Discord server with the generated OAuth link and ensure i
 Run the bot with:
 
 ```
-python hackernews_bot.py
+python main.py
 ```
 
 ## Commands
