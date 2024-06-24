@@ -1,4 +1,4 @@
-# HackerNews Discord Bot
+# HackerNews for Discord
 
 This application fetches and shares top stories from HackerNews for Discord servers. 
 
