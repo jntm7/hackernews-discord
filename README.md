@@ -11,7 +11,7 @@ It provides automatic hourly updates and allows users to manually fetch news or 
 - Keyword search functionality
 - User subscription for mentions
 
-## Installation
+## 🪛 Installation
 
 ### ⚙️ Clone Repository
 
