@@ -15,7 +15,10 @@ It provides automatic hourly updates and allows users to manually fetch news or 
 
 ### Clone Repository
 
-```git clone https://github.com/jntm7/hackernews-discord.git
+```
+git clone https://github.com/jntm7/hackernews-discord.git
+```
+```
 cd hackernews-discord
 ```
 
