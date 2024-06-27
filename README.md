@@ -1,6 +1,6 @@
 # HackerNews for Discord
 
-This application fetches and shares top stories from HackerNews for Discord servers. 
+This application fetches and shares top stories from [HackerNews](https://news.ycombinator.com) for Discord servers. 
 
 It provides automatic hourly updates and allows users to manually fetch news or search for stories by keyword.
 
